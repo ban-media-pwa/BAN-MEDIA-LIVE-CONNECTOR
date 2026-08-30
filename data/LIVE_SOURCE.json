@@ -1,0 +1,50 @@
+{
+  "sheet": "LIVE_SOURCE",
+  "columns": [
+    "sourceId",
+    "sourceName",
+    "browserType",
+    "profileName",
+    "status",
+    "collectorStatus",
+    "lastConnectedAt",
+    "lastSeenAt",
+    "note"
+  ],
+  "updatedAt": "2026-08-30T06:37:10.085Z",
+  "sources": [
+    {
+      "sourceId": "SRC-01",
+      "sourceName": "LIVE SOURCE 01",
+      "browserType": "Chromium",
+      "profileName": "Profile 01",
+      "status": "CONNECTED",
+      "collectorStatus": "ARMED",
+      "lastConnectedAt": "2026-08-30T06:36:07.655Z",
+      "lastSeenAt": "2026-08-30T06:37:09.833Z",
+      "note": "Chromium profile running."
+    },
+    {
+      "sourceId": "SRC-02",
+      "sourceName": "LIVE SOURCE 02",
+      "browserType": "Chromium",
+      "profileName": "Profile 02",
+      "status": "DISCONNECTED",
+      "collectorStatus": "IDLE",
+      "lastConnectedAt": "2026-08-30T06:35:08.628Z",
+      "lastSeenAt": "2026-08-30T06:35:28.081Z",
+      "note": "Engine closed. Profile + cookies remain on local disk."
+    },
+    {
+      "sourceId": "SRC-03",
+      "sourceName": "LIVE SOURCE 03",
+      "browserType": "Chromium",
+      "profileName": "Profile 03",
+      "status": "DISCONNECTED",
+      "collectorStatus": "IDLE",
+      "lastConnectedAt": "",
+      "lastSeenAt": "",
+      "note": "Isolated Chromium profile. Credentials stay in this profile only."
+    }
+  ]
+}
