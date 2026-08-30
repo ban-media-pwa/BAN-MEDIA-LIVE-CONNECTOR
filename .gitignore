@@ -1,0 +1,28 @@
+# BAN MEDIA LIVE CONNECTOR
+# Local browser profiles - NEVER upload to GitHub
+profiles/
+
+# Node.js dependencies
+node_modules/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Runtime files
+*.pid
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
